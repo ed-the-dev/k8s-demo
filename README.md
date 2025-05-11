@@ -1,5 +1,15 @@
 ### Repository for the K8s in 1 hour video
 
+<br />
+
+> :warning: **Known issue - Minikube IP not accessible** 
+
+If you can't access the NodePort service webapp with `MinikubeIP:NodePort`, execute the following command:
+    
+    minikube service webapp-service
+
+<br />
+
 #### K8s manifest files 
 * mongo-config.yaml
 * mongo-secret.yaml
